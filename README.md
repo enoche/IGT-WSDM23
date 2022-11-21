@@ -21,7 +21,7 @@ Under PIPL, we are unable to provide the evaluated datasets for public use. Howe
 @inproceedings{zhou2022inductive,
   title={Inductive Graph Transformer for Delivery Time Estimation},
   author={Zhou, Xin and Wang, Jinglong and Liu, Yong and Wu, Xingyu and Shen, Zhiqi and Leung, Cyril},
-  booktitle={Proceedings of the sixteenth ACM International Conference on Web Search and Data Mining},
+  booktitle={Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining},
   year={2023}
 }
 ```
