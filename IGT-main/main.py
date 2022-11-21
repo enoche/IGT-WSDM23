@@ -15,7 +15,6 @@ os.environ['NUMEXPR_MAX_THREADS'] = '64'
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', '-m', type=str, default='IGT', help='name of models')
-    #parser.add_argument('--dataset', '-d', type=str, default='toy_sample', help='name of datasets')
     parser.add_argument('--dataset', '-d', type=str, default='toy', help='name of datasets')
 
     config_dict = {
