@@ -1,0 +1,35 @@
+# general
+gpu_id: 0
+use_gpu: True
+seed: [2022]
+dataset: 'toy_sample'
+preprocessed_data: '../datasets/'
+predict_results: 'predict_results/'
+load_preprocessed: True
+plot_save_path: 'rslt_plots/'
+plot_enabled: False
+checkpoint_dir: 'saved'
+
+# training settings
+trainer_type: batch
+epochs: 1000
+train_batch_size: 8192
+learner: adam
+learning_rate: 0.001
+eval_step: 1
+stopping_step: 100
+shuffle: True
+save_model: True
+is_graph_model: False
+save_results: True
+
+field_separator: ","
+
+# evaluation settings
+valid_test_days: [2, 2]
+metrics: ["MAE", "MAPE", "MARE"]
+valid_metric: MAE
+eval_batch_size: 8192
+
+hyper_parameters: ['seed']
+

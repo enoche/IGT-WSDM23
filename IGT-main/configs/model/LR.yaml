@@ -1,0 +1,7 @@
+learner: none
+use_gpu: False
+trainer_type: full
+stopping_step: 1
+epochs: 1
+save_model: False
+

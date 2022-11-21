@@ -1,0 +1,14 @@
+learning_rate: 0.0001
+dropout: [0.0, 0.2, 0.5]
+emb_dropout: [0.1, 0.5]
+dim: [32, 64]
+depth: [4, 8]
+heads: [2, 4]
+dim_head: [32, 64]
+mlp_dim: [32, 64]
+pool: ['cls', 'mean']
+embedding_size: [16]
+n_layers: [2]
+is_graph_model: True
+hyper_parameters: ["embedding_size", "n_layers", "dropout", "emb_dropout", "dim", "depth", "heads", "dim_head", "mlp_dim", "pool"]
+

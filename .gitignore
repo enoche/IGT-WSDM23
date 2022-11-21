@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+.idea/
+IGT-main/log/
+IGT-main/saved/
+IGT-main/predict_results/
+IGT-main/preprocessed_data/
 # Distribution / packaging
 .Python
 build/
