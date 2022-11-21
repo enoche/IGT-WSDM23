@@ -6,6 +6,7 @@ Official Pytorch Code for "Inductive Graph Transformer for Delivery Time Estimat
 
 
 ## How to run
+Enter `IGT-main`:   
 ```python
 python main.py -d toy -m IGT
 ```
